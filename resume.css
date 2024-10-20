@@ -37,14 +37,14 @@
     margin-bottom: 10px;
     margin-right: 15px;
     margin-left: 15px;
-    padding-top: 70px;
-    padding-bottom: 5px;
+    padding-top: 45px;
+    padding-bottom: 30px;
     display: inline;
   }
 
   .brh_3 {
     float: right;
-    text-align: center;
+    text-align: right;
     margin-top: 70px;
     padding-top: 50px;    
     margin-bottom: 10px;
@@ -54,6 +54,18 @@
     display: inline;
   }
 
+
+
+  /* li::before {
+    content: "•    ";
+    margin-left: 10px;
+  }   */
+
+  /* li::before {
+    content: "•    ";
+  } 
+    */
+
   
   #m_container1{
     width: 100%;
@@ -61,11 +73,12 @@
     overflow: hidden;
   }
 
-.jdesc{font-size: 110%;}
-.jtech_sk{font-size: 100%; font-family: sans-serif; font-style: italic;color: #000000}
 
-.brh_2 h3 {font-size: 145%;padding-top: 15px;}
-.brh_2 h2 {font-size: 180% }
+
+.brh_2 h3 {font-size: 145%; padding-top: 15px; text-align: left}
+.brh_2 h2 {font-size: 180%; text-align: left}
+
+
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
@@ -92,14 +105,22 @@ body {font-family: Georgia;color: #444;}
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
-p {font-size: 100%;line-height: 18px;padding-right: 1em;}
+/* descrp p {font-size: 100%;line-height: 18px;padding-right: 1em;}  */
 a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
-li.talent{ line-height: 24px; border-bottom: 1px solid #ccc; }
-li.mark1{font-size: 110%;}
-p.enlarge {font-size: 120%;padding-right: 1em;line-height: 24px;text-align: justify;}
-p.enlarge span { color: #000 }
+/* li.talent{ line-height: 24px; border-bottom: 1px solid #ccc; }
+li.mark1{font-size: 110%;} */
+/* p.enlarge {font-size: 120%;padding-right: 1em;line-height: 24px;text-align: justify;}
+p.enlarge span { color: #000 } */
+
+
+/* .descrp {font-size: 120%;padding-right: 1em;line-height: 24px;text-align: justify;} */
+.descrp p {font-size: 120%;padding-right: 1em; margin-bottom: 15px; margin-top: 10px; line-height: 24px;text-align: justify;}
+.descrp h3 { text-align: right}
+.descrp ul {font-size: 120%;padding-right: 1em;text-align: justify;}
+/* .descrp p { font-size: 120%;padding-right: 1em;line-height: 24px;text-align: justify;} */
+
 .contact-info {font-family: sans-serif; margin-top: 1px; }
 .first h2 { font-style: italic; }
 .last { border-bottom: 0 }
@@ -111,15 +132,20 @@ p.enlarge span { color: #000 }
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 a#pdf:hover { background: #222; }
 
-.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job {position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
-.job p {margin: 0.75em 0 3em 0; text-align: justify;}
+.job h3 {margin-top: 0.35em; margin-bottom: 2em; right: 0 }
+.job p {margin: 0.75em 0 1em 0; text-align: justify;}
+.pjob {font-size: 120%; line-height: 24px;}
+.jtech_sk{font-size: 100%; line-height: 15px; font-family: sans-serif; font-style: italic; color: #000000}
+.jdesc{font-size: 120%; line-height: 24px;} 
+.job ul {font-size: 120%;}
 
 .last { border: none; }
-.skills-list {  }
+/* .skills-list {  }
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
-.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 } */
 .talent {width: 29%;margin-right: 5px;float: left}
 .talent h2 { margin-bottom: 6px; }
 .talent h3 { margin-bottom: 6px; }
