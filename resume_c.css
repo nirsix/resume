@@ -140,6 +140,7 @@ a#pdf:hover { background: #222; }
 .job h3 {margin-top: 0.35em; margin-bottom: 2em; right: 0 }
 .job p {margin: 0.75em 0 1em 0; text-align: justify;}
 .pjob {font-size: 120%; line-height: 24px;}
+.small_ref{font-size: 90%; line-height: 24px;}
 .jtech_sk{font-size: 100%; line-height: 15px; font-family: sans-serif; font-style: italic; color: #000000}
 .jdesc{font-size: 120%; line-height: 24px;} 
 .job ul {font-size: 120%;}
